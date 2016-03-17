@@ -1,0 +1,46 @@
+# markdown
+markdown: redcarpet
+redcarpet:
+  extensions: ["superscript","tables","with_toc_data","strikethrough"]
+highlighter: pygments
+
+exclude:
+- ".ruby-version"
+- ".jekyll-metadata"
+- ".gitignore"
+- ".travis.yml"
+- todo.txt
+- resources
+- Gemfile
+- Gemfile.lock
+- Makefile
+- vendor
+- README.md
+- CONTRIBUTING.md
+- LICENSE.md
+
+# Site metadata
+name: "Framework Demo Site"
+description: "Framework Demo Site: Catchy Description Here"
+# baseurl: https://youraccount.github.io/framework
+# Uncomment the following line for localhost development at http://127.0.0.1:4000/framework/
+baseurl: /framework
+
+# GitHub information
+org_name: maoconnor
+repo_name: framework
+branch: gh-pages
+
+# Navigation
+# List links that should appear in the site sidebar here
+navigation:
+- text: Home
+  url: /framework/
+- text: Purpose
+  url: /framework/purpose/
+- text: Applicability
+  url: /framework/applicability/
+
+# sass
+sass:
+  sass_dir: _sass
